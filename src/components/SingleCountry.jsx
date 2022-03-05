@@ -111,11 +111,12 @@ const SingleCountry = () => {
                 </h5>
               </li>
             </ul>
-            {country.borders ? (
+            {(country.borders && country.borders[0] !== undefined ) ? (
               <div className="bottom__data">
                 <h5>border countries : </h5>
                 <div>
                   {country.borders.map((b, index) => {
+                    
                     if (b) {
                       return (
                         <button
