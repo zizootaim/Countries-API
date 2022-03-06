@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:()
-- Live Site URL: ()
+- Solution URL:(https://www.frontendmentor.io/solutions/countries-api-7Nc_9olVR)
+- Live Site URL: (https://countries-api-z.netlify.app/)
 
 ## My process
 
