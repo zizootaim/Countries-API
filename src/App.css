@@ -35,14 +35,14 @@ a {
 img {
   width: 100%;
 }
-h5 {
+p {
   margin-bottom: 0.5rem;
   font-weight: 800;
   color: var(--text-color);
   text-transform: capitalize;
   letter-spacing: 0.02rem;
 }
-h5 span {
+p span {
   font-weight: 300;
 }
 .btn {
@@ -263,7 +263,17 @@ body {
   margin-top: 0;
 }
 
+/* Footer */
 
+footer{
+  width: 100%;
+  background-color: var(--surface-bg);
+  display: grid;
+  place-items: center;
+  color: var(--text-color);
+  margin-top: 3rem;
+  padding: .6rem 0;
+}
 
 
 /* Media Queries */

@@ -117,15 +117,15 @@ const Countries = () => {
                 </div>
                 <div className="country__data">
                   <h3>{c.name}</h3>
-                  <h5>
+                  <p>
                     Population : <span>{millify(c.population)}</span>
-                  </h5>
-                  <h5>
+                  </p>
+                  <p>
                     Region : <span>{c.region}</span>
-                  </h5>
-                  <h5>
+                  </p>
+                  <p>
                     Capital : <span>{c.capital}</span>
-                  </h5>
+                  </p>
                 </div>
               </div>
             );

@@ -53,53 +53,53 @@ const SingleCountry = () => {
             <h2>{country.name}</h2>
             <ul className="data__list">
               <li>
-                <h5>
+                <p>
                   native name : <span>{country.nativeName}</span>
-                </h5>
+                </p>
               </li>
               <li>
-                <h5>
+                <p>
                   population : <span>{millify(country.population)}</span>
-                </h5>
+                </p>
               </li>
               <li>
-                <h5>
+                <p>
                   region : <span>{country.region}</span>
-                </h5>
+                </p>
               </li>
               <li>
-                <h5>
+                <p>
                   sub region : <span>{country.subregion}</span>
-                </h5>
+                </p>
               </li>
               {country.capital ? (
                 <li>
-                  <h5>
+                  <p>
                     capital : <span>{country.capital}</span>
-                  </h5>
+                  </p>
                 </li>
               ) : (
                 ""
               )}
               <li>
-                <h5>
+                <p>
                   top level domain : <span>{country.topLevelDomain}</span>
-                </h5>
+                </p>
               </li>
               {country.currencies ? (
                 <li>
-                  <h5>
+                  <p>
                     currencies :
                     {country.currencies.map((c, index) => (
                       <span key={index}> {c.name} </span>
                     ))}
-                  </h5>
+                  </p>
                 </li>
               ) : (
                 ""
               )}
               <li>
-                <h5>
+                <p>
                   languages :
                   {country.languages.map((l, index) => (
                     <span key={index}>
@@ -108,12 +108,12 @@ const SingleCountry = () => {
                       {country.languages.length > 1 ? "," : ""}{" "}
                     </span>
                   ))}
-                </h5>
+                </p>
               </li>
             </ul>
             {(country.borders && country.borders[0] !== undefined ) ? (
               <div className="bottom__data">
-                <h5>border countries : </h5>
+                <p>border countries : </p>
                 <div>
                   {country.borders.map((b, index) => {
                     
