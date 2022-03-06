@@ -267,7 +267,6 @@ body {
 
 footer{
   width: 100%;
-  background-color: var(--surface-bg);
   display: grid;
   place-items: center;
   color: var(--text-color);
